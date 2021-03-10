@@ -1,0 +1,15 @@
+author:
+  name             : "Hyobin Yang"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Engineer"
+  location         : "South Korea"
+  links:
+    - label: "hyobbb11@gmail.com"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hyobbb11@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hyobbb"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"

@@ -24,6 +24,6 @@ algolia:
     - index.html
     - index.md
     - excluded-file.html
-    - _posts/2017-11-28-post-exclude-search.md
+    - _posts/2021-03-13-about-flutter-hooks.md
     - subdirectory/*.html
 ```
