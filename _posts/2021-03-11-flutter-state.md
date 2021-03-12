@@ -1,5 +1,5 @@
 ---
-title: "Flutter Widget Lifecycle"
+title: "Flutter Widget State Lifecycle"
 search: true
 categories:
 - flutter
@@ -175,7 +175,7 @@ flutter: child number : 2
 
 works fine.
 
-How about modifying parent number? Child widget takes parentNumber as arguments in constructor.
+How about modifying parent number? Child widget takes parentNumber as arguments of its constructor.
 Should it recreate its state?
 
 ```
