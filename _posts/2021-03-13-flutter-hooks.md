@@ -7,12 +7,14 @@ tags:
 - flutter
 last_modified_at: 2021-03-13T22:51:00
 ---
+
 # State Management of Widget
 
 Most common way of handling state of widget is using [```setState```](https://api.flutter.dev/flutter/widgets/State/setState.html) method of ```State``` of ```StatefulWidget```.
 However, using StatefulWidget for all the time generates a lot of boiler plate code. Therefore, I normally use the package named *[flutter hooks](https://pub.dev/packages/flutter_hooks)*.
 This is a package that implement [*React Hooks*](https://reactjs.org/docs/hooks-intro.html) of React Native.
 I strongly recommend you to read their docs before(or whenever) using this package.
+
 ---
 
 ##About Hook
@@ -332,6 +334,7 @@ class MyStatelessWidget extends StatelessWidget {
 If you don't want to rebuild whole widget with your hooks you can use HookBuilder to use hooks only at specific location inside of your widget tree.
 
 ###Additional Tip
+
 As HookWidget inherit StatelessWidget you can use ```const``` widget.
 It is always good practice to use const widget if possible for your app to perform better. 
 When your widget tree has tons of widgets to rebuild it will appreciate those const widgets.
