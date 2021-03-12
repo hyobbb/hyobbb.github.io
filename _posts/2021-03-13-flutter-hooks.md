@@ -17,7 +17,7 @@ I strongly recommend you to read their docs before(or whenever) using this packa
 
 ---
 
-##About Hook
+## About Hook
 
 Here is the simple example of Widget that use Hook.
 ```dart
@@ -88,13 +88,13 @@ That is why hooks can be used to manage the state of state*less* widget.
 
 
 ---
-##Examples
+## Examples
 
 
 There are many existing hooks that is already implemented in the package, and it is possible to make your own custom hook if it is needed.
 I will just write down several hooks that I frequently use, and how does it implemented with StatefulWidget.
 
-###1.useState
+### 1.useState
 ```dart
 class SomeWidget extends HookWidget {
   @override
@@ -163,7 +163,7 @@ class _SomeWidgetState extends State<SomeWidget> {
 }
 ```
 
-###2.useEffect
+### 2.useEffect
 ```dart
 class MyText extends HookWidget {
   final int number;
@@ -242,7 +242,7 @@ useEffect(() {
 
 *Caution: if you don't specify this key and leave it null, then useEffect will be called everytime it rebuilds not just once like initState.*
 
-###3.useController
+### 3.useController
 ```dart
 class SomeAnimationWidget extends HookWidget {
   
@@ -312,7 +312,7 @@ class _SomeAnimationWidgetState extends State<SomeAnimationWidget>
   }
 }
 ```
-###4. HookBuilder
+### 4. HookBuilder
 ```dart
 class MyStatelessWidget extends StatelessWidget {
   
@@ -333,7 +333,7 @@ class MyStatelessWidget extends StatelessWidget {
 ```
 If you don't want to rebuild whole widget with your hooks you can use HookBuilder to use hooks only at specific location inside of your widget tree.
 
-###Additional Tip
+### Additional Tip
 
 As HookWidget inherit StatelessWidget you can use ```const``` widget.
 It is always good practice to use const widget if possible for your app to perform better. 
@@ -341,7 +341,7 @@ When your widget tree has tons of widgets to rebuild it will appreciate those co
 
 ---
 
-##Conclusion
+## Conclusion
 
 Flutter hooks is wonderful package to implement dynamic rendering widgets without boiler plate codes.
 However, I didn't study enough on the basic principle of how it really works before, and it cost a lot when I had to build complex widgets because I made many mistakes that cause some critical issues for the lack of understanding.
