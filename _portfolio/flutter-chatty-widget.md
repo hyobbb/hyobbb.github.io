@@ -2,16 +2,17 @@
 title: "Flutter Chatty Widget"
 excerpt: "Simple Flutter widget that shows message in chat box on tap event."
 sidebar:
-  - title: "Language & Framework"
-    text: "Dart & Flutter"
+  - title: "Language"
+    text: "Dart"
   - title: "Description"
     text: "Simple Flutter widget that shows message in chat box on tap event."
 ---
 
-# chatty_widget
-
 A Flutter widget that shows message on tap event.
 
+## Links
+[Github](https://github.com/hyobbb/chatty_widget)   
+[Pub.dev](https://pub.dev/packages/chatty_widget)
 
 ## Installation
 In your `pubspec.yaml` root add:
